@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0e0d0b;
+    color: #f3ead8;
+    overflow-x: hidden;
+  }
+
+  h1, h2, .font-serif-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Leather, Felt, and Brass procedural textures */
+.bg-felt-green {
+  background-color: #12291e;
+  background-image: radial-gradient(rgba(212, 168, 83, 0.06) 1px, transparent 0),
+                    radial-gradient(rgba(0, 0, 0, 0.35) 1px, transparent 0);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+
+.bg-leather-case {
+  background-color: #261710;
+  background-image:
+    radial-gradient(circle at 50% 30%, rgba(212, 168, 83, 0.08), transparent 70%),
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.14) 0px, rgba(0, 0, 0, 0.14) 2px, transparent 2px, transparent 6px);
+}
+
+.bg-passport-cover {
+  background-color: #19232c;
+  background-image:
+    radial-gradient(circle at 50% 25%, rgba(212, 168, 83, 0.12), transparent 65%),
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 5px);
+}
+
+.brass-stitch {
+  outline: 1px dashed rgba(212, 168, 83, 0.38);
+  outline-offset: -6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

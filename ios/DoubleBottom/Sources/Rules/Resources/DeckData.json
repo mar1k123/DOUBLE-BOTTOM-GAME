@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0-initial",
+  "checkpointName": "КПП «Ласточка» (Альтавия — Нордмарк)",
+  "categories": [
+    { "id": "oranges", "name": "Апельсины", "nameEn": "Oranges", "legal": true },
+    { "id": "cheese",  "name": "Сыр",       "nameEn": "Cheese",  "legal": true },
+    { "id": "watches", "name": "Часы",      "nameEn": "Watches", "legal": true },
+    { "id": "wine",    "name": "Вино",      "nameEn": "Wine",    "legal": true }
+  ],
+  "items": [
+    {
+      "id": "orange",
+      "name": "Апельсины из Соланы",
+      "nameEn": "Solana Oranges",
+      "category": "oranges",
+      "value": 2,
+      "fine": 2,
+      "weight": 1,
+      "count": 16,
+      "silhouetteSize": "small_round"
+    },
+    {
+      "id": "cheese",
+      "name": "Нордмаркский выдержанный сыр",
+      "nameEn": "Nordmark Aged Cheese",
+      "category": "cheese",
+      "value": 3,
+      "fine": 3,
+      "weight": 2,
+      "count": 12,
+      "silhouetteSize": "medium_wedge"
+    },
+    {
+      "id": "watch",
+      "name": "Латунный хронометр",
+      "nameEn": "Brass Chronometer",
+      "category": "watches",
+      "value": 5,
+      "fine": 4,
+      "weight": 1,
+      "count": 8,
+      "silhouetteSize": "small_flat"
+    },
+    {
+      "id": "wine",
+      "name": "Рубиновое вино долины Крейг",
+      "nameEn": "Craig Valley Ruby Wine",
+      "category": "wine",
+      "value": 4,
+      "fine": 3,
+      "weight": 3,
+      "count": 10,
+      "silhouetteSize": "tall_bottle"
+    },
+    {
+      "id": "microfilm",
+      "name": "Микроплёнка в латунной катушке",
+      "nameEn": "Microfilm Spool",
+      "category": null,
+      "value": 7,
+      "fine": 6,
+      "weight": 1,
+      "count": 6,
+      "silhouetteSize": "small_spool"
+    },
+    {
+      "id": "radio",
+      "name": "Ламповый коротковолновый приёмник",
+      "nameEn": "Shortwave Tube Radio",
+      "category": null,
+      "value": 8,
+      "fine": 6,
+      "weight": 2,
+      "count": 6,
+      "silhouetteSize": "medium_box"
+    },
+    {
+      "id": "gold",
+      "name": "Слиток банковского золота",
+      "nameEn": "Bank Gold Bullion",
+      "category": null,
+      "value": 10,
+      "fine": 8,
+      "weight": 3,
+      "count": 4,
+      "silhouetteSize": "heavy_bar"
+    },
+    {
+      "id": "antique",
+      "name": "Антикварная амфора Альтавии",
+      "nameEn": "Altavian Antique Amphora",
+      "category": null,
+      "value": 12,
+      "fine": 9,
+      "weight": 2,
+      "count": 3,
+      "silhouetteSize": "tall_vase"
+    }
+  ],
+  "specials": [
+    {
+      "id": "false_bottom",
+      "name": "Двойное дно",
+      "nameEn": "False Bottom",
+      "description": "Позволяет тайно спрятать 1 предмет из руки под войлочную перегородку. Не входит в заявленное число n.",
+      "count": 2
+    }
+  ]
+}

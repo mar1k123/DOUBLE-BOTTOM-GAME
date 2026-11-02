@@ -1,0 +1,6 @@
+{
+  "name": "ДВОЙНОЕ ДНО — iPhone Duo Vertical Slice",
+  "description": "Партийная игра на блеф про контрабанду на границе КПП «Ласточка» для складного iPhone Duo (iOS 27.1): два экрана одновременно, шарнир как датчик, нервомер и симулятор баланса.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

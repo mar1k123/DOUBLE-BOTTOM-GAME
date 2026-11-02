@@ -1,0 +1,125 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "app.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DOUBLE BOTTOM"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DOUBLE FOND"
+          }
+        }
+      }
+    },
+    "checkpoint.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checkpoint 'Swallow' • Altavia ⇄ Nordmark"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poste-frontière « Hirondelle » • Altavia ⇄ Nordmark"
+          }
+        }
+      }
+    },
+    "inspector.action.pass" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PASS WITHOUT INSPECTION"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LAISSER PASSER SANS CONTRÔLE"
+          }
+        }
+      }
+    },
+    "inspector.action.inspect" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OPEN SUITCASE (>=25°)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OUVRIR LA VALISE (>=25°)"
+          }
+        }
+      }
+    },
+    "inspector.action.accept_bribe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ACCEPT TIP & PASS"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ACCEPTER LE POURBOIRE ET LAISSER PASSER"
+          }
+        }
+      }
+    },
+    "nervometer.disclaimer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NERVOMETER-64 (Game Prop • Not a Lie Detector)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NERVOMÈTRE-64 (Accessoire de jeu • Pas un détecteur de mensonges)"
+          }
+        }
+      }
+    },
+    "slit.eye_warning" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YOU ARE BEING INSPECTED! KEEP A STONE FACE."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VOUS ÊTES CONTRÔLÉ ! GARDEZ UN VISAGE DE MARBRE."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
