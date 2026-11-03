@@ -182,7 +182,7 @@ export function App() {
         if (!p.isBot) return p;
         return {
           ...p,
-          name: nextLang === 'fr' ? 'Capitaine Vera (IA)' : 'Captain Vera (AI)',
+          name: nextLang === 'fr' ? 'Capitaine Vera Lisitsyna' : 'Captain Vera Lisitsyna',
         };
       })
     );
@@ -320,8 +320,8 @@ export function App() {
         name:
           mode === 'solo_vs_captain'
             ? lang === 'fr'
-              ? 'Capitaine Vera (IA)'
-              : 'Captain Vera (AI)'
+              ? 'Capitaine Vera Lisitsyna'
+              : 'Captain Vera Lisitsyna'
             : 'Inspector Kreutz',
         country: 'nordmark',
         portraitIndex: 7,

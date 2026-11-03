@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0c0a"/>
+      <stop offset="55%" stop-color="#17130e"/>
+      <stop offset="100%" stop-color="#0f171e"/>
+    </linearGradient>
+    <radialGradient id="brassGlow" cx="72%" cy="48%" r="52%">
+      <stop offset="0%" stop-color="#d4a853" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#d4a853" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hingeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5c4324"/>
+      <stop offset="50%" stop-color="#e5be6b"/>
+      <stop offset="100%" stop-color="#4a351b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="22" fill="url(#bgGrad)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#brassGlow)"/>
+  <rect x="14" y="14" width="1172" height="312" rx="16" fill="none" stroke="#d4a853" stroke-width="2" stroke-opacity="0.65"/>
+  <rect x="24" y="24" width="1152" height="292" rx="12" fill="none" stroke="#d4a853" stroke-width="1" stroke-dasharray="8 6" stroke-opacity="0.4"/>
+
+  <!-- Left Wing: Title & Crest -->
+  <g transform="translate(56, 54)">
+    <!-- Swallow Customs Emblem -->
+    <circle cx="42" cy="42" r="36" fill="#1d1610" stroke="#d4a853" stroke-width="2.5"/>
+    <circle cx="42" cy="42" r="28" fill="none" stroke="#d4a853" stroke-width="1" stroke-dasharray="4 3"/>
+    <path d="M62 42 L24 24 L35 42 L24 60 Z" fill="#d4a853"/>
+
+    <text x="96" y="28" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" letter-spacing="3">
+      CHECKPOINT "SWALLOW" · ALTAVIA ⇄ NORDMARK · 1964
+    </text>
+    <text x="96" y="76" fill="#f3ead8" font-family="Cormorant Garamond, Georgia, serif" font-size="54" font-weight="700" letter-spacing="2.5">
+      DOUBLE BOTTOM
+    </text>
+    <text x="536" y="76" fill="#d4a853" font-family="Cormorant Garamond, Georgia, serif" font-size="30" font-style="italic" font-weight="600">
+      / DOUBLE FOND
+    </text>
+
+    <text x="4" y="126" fill="#d8cab1" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="16" font-weight="500">
+      Asymmetric Social Deduction &amp; Contraband Bluffing Party Game for Foldable iPhone Duo
+    </text>
+    <text x="4" y="152" fill="#a8997f" font-family="IBM Plex Mono, monospace" font-size="13">
+      Outside (5.4" Portrait): Public Passport &amp; Nervometer-64  ·  Inside (7.6" Landscape): Secret Valise &amp; Slit Peek
+    </text>
+
+    <!-- Feature Badges -->
+    <g transform="translate(4, 182)">
+      <rect x="0" y="0" width="166" height="34" rx="8" fill="#211a13" stroke="#d4a853" stroke-width="1.2"/>
+      <text x="83" y="21" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">2–6 PLAYERS + SOLO</text>
+
+      <rect x="180" y="0" width="184" height="34" rx="8" fill="#13251b" stroke="#4ade80" stroke-width="1.2"/>
+      <text x="272" y="21" text-anchor="middle" fill="#bbf7d0" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">3°–25° HINGE SLIT</text>
+
+      <rect x="378" y="0" width="186" height="34" rx="8" fill="#17222d" stroke="#7dd3fc" stroke-width="1.2"/>
+      <text x="471" y="21" text-anchor="middle" fill="#e0f2fe" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">ENGLISH &amp; FRANÇAIS</text>
+    </g>
+  </g>
+
+  <!-- Right Wing: Illustrated iPhone Duo Dual-Screen Hardware Schematic -->
+  <g transform="translate(760, 44)">
+    <!-- Outer Screen 5.4" Card -->
+    <rect x="0" y="14" width="152" height="224" rx="16" fill="#16212c" stroke="#d4a853" stroke-width="2"/>
+    <rect x="12" y="28" width="128" height="22" rx="4" fill="#0f171f"/>
+    <text x="76" y="43" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600">OUTER · 5.4"</text>
+    <circle cx="76" cy="86" r="22" fill="#1f2e3d" stroke="#d4a853" stroke-width="1.5"/>
+    <path d="M58 86 Q76 70 94 86 Q76 102 58 86 Z" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="76" cy="86" r="5" fill="#f59e0b"/>
+    <text x="76" y="128" text-anchor="middle" fill="#f3ead8" font-family="Cormorant Garamond, Georgia, serif" font-size="15" font-weight="700">PASSPORT</text>
+    <text x="76" y="146" text-anchor="middle" fill="#9fb0c2" font-family="IBM Plex Mono, monospace" font-size="10">NERVOMETER: 64±12</text>
+    <rect x="20" y="164" width="112" height="24" rx="5" fill="#1f5138"/>
+    <text x="76" y="180" text-anchor="middle" fill="#dcfce7" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600">PASS CARGO</text>
+    <rect x="20" y="196" width="112" height="24" rx="5" fill="#7f1d1d"/>
+    <text x="76" y="212" text-anchor="middle" fill="#fecaca" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600">INSPECT ≥25°</text>
+
+    <!-- Brass Mechanical Hinge -->
+    <rect x="162" y="22" width="16" height="208" rx="8" fill="url(#hingeGrad)" stroke="#3b2a14" stroke-width="1.5"/>
+    <circle cx="170" cy="40" r="3" fill="#14110e"/>
+    <circle cx="170" cy="126" r="3" fill="#14110e"/>
+    <circle cx="170" cy="212" r="3" fill="#14110e"/>
+
+    <!-- Inner Screen 7.6" Valise -->
+    <rect x="188" y="6" width="204" height="240" rx="18" fill="#14281d" stroke="#d4a853" stroke-width="2"/>
+    <rect x="200" y="20" width="180" height="22" rx="4" fill="#0d1b13"/>
+    <text x="290" y="35" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600">INNER · 7.6" VALISE</text>
+
+    <!-- Velvet Slots -->
+    <rect x="204" y="54" width="82" height="62" rx="8" fill="#1b3527" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="245" y="82" text-anchor="middle" fill="#bbf7d0" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600">ORANGES</text>
+    <text x="245" y="100" text-anchor="middle" fill="#86efac" font-family="IBM Plex Mono, monospace" font-size="10">LEGAL · 3 MK</text>
+
+    <rect x="296" y="54" width="82" height="62" rx="8" fill="#3b1719" stroke="#f87171" stroke-width="1.2"/>
+    <text x="337" y="82" text-anchor="middle" fill="#fecaca" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600">MICROFILM</text>
+    <text x="337" y="100" text-anchor="middle" fill="#fca5a5" font-family="IBM Plex Mono, monospace" font-size="10">CONTRABAND</text>
+
+    <!-- False Bottom Compartment -->
+    <rect x="204" y="128" width="174" height="54" rx="8" fill="#231b12" stroke="#f59e0b" stroke-width="1.2" stroke-dasharray="5 3"/>
+    <text x="291" y="152" text-anchor="middle" fill="#fde68a" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600">FALSE BOTTOM CACHE</text>
+    <text x="291" y="170" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="10">GYRO TILT SEARCH (±25°)</text>
+
+    <!-- Hinge Angle Telemetry Bar -->
+    <rect x="204" y="194" width="174" height="36" rx="6" fill="#0d1b13" stroke="#d4a853" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="291" y="216" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600">θ = 18.5° · SLIT LVL 3</text>
+  </g>
+</svg>

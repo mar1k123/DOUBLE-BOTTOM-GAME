@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 230" width="100%" height="100%">
+  <rect width="1100" height="230" rx="16" fill="#120f0c" stroke="#d4a853" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="36" y="38" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" letter-spacing="2">
+    PHYSICAL HINGE STATE MACHINE (θ = 0°..180°) · 2° ANTI-FLICKER HYSTERESIS · 250 MS SEAL DEBOUNCE
+  </text>
+
+  <!-- Zone 1: SEALED -->
+  <g transform="translate(36, 58)">
+    <rect width="160" height="118" rx="10" fill="#1c1611" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">0° – 3°</text>
+    <text x="80" y="52" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">SEALED</text>
+    <text x="80" y="76" text-anchor="middle" fill="#b8a98d" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Lead customs seal</text>
+    <text x="80" y="94" text-anchor="middle" fill="#b8a98d" font-family="Plus Jakarta Sans, sans-serif" font-size="11">engaged (250 ms hold)</text>
+  </g>
+
+  <!-- Zone 2: SLIT LVL 1 -->
+  <g transform="translate(210, 58)">
+    <rect width="165" height="118" rx="10" fill="#17231d" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="82" y="28" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">3° – 10°</text>
+    <text x="82" y="52" text-anchor="middle" fill="#4ade80" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">SLIT · LEVEL 1</text>
+    <text x="82" y="76" text-anchor="middle" fill="#bbf7d0" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Gross Spring Weight</text>
+    <text x="82" y="94" text-anchor="middle" fill="#86efac" font-family="IBM Plex Mono, monospace" font-size="10">(Includes False Bottom)</text>
+  </g>
+
+  <!-- Zone 3: SLIT LVL 2 -->
+  <g transform="translate(389, 58)">
+    <rect width="165" height="118" rx="10" fill="#17232c" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="82" y="28" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">10° – 18°</text>
+    <text x="82" y="52" text-anchor="middle" fill="#38bdf8" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">SLIT · LEVEL 2</text>
+    <text x="82" y="76" text-anchor="middle" fill="#bae6fd" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Shuffled Silhouettes</text>
+    <text x="82" y="94" text-anchor="middle" fill="#7dd3fc" font-family="IBM Plex Mono, monospace" font-size="10">circle · square · tall · flat</text>
+  </g>
+
+  <!-- Zone 4: SLIT LVL 3 -->
+  <g transform="translate(568, 58)">
+    <rect width="165" height="118" rx="10" fill="#291f12" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="82" y="28" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">18° – 25°</text>
+    <text x="82" y="52" text-anchor="middle" fill="#f59e0b" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">SLIT · LEVEL 3</text>
+    <text x="82" y="76" text-anchor="middle" fill="#fde68a" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Backlit Customs Tint</text>
+    <text x="82" y="94" text-anchor="middle" fill="#fcd34d" font-family="IBM Plex Mono, monospace" font-size="10">75% Accuracy + Hatching</text>
+  </g>
+
+  <!-- Zone 5: COMMITTED -->
+  <g transform="translate(747, 58)">
+    <rect width="165" height="118" rx="10" fill="#381416" stroke="#ef4444" stroke-width="2"/>
+    <text x="82" y="28" text-anchor="middle" fill="#fecaca" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">≥ 25°</text>
+    <text x="82" y="52" text-anchor="middle" fill="#f87171" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="700">COMMITTED</text>
+    <text x="82" y="76" text-anchor="middle" fill="#fecaca" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Point of No Return</text>
+    <text x="82" y="94" text-anchor="middle" fill="#fca5a5" font-family="IBM Plex Mono, monospace" font-size="10">Official Search Latched</text>
+  </g>
+
+  <!-- Zone 6: OPEN -->
+  <g transform="translate(926, 58)">
+    <rect width="138" height="118" rx="10" fill="#1f1912" stroke="#d4a853" stroke-width="1.5"/>
+    <text x="69" y="28" text-anchor="middle" fill="#f3ead8" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">100° – 180°</text>
+    <text x="69" y="52" text-anchor="middle" fill="#d4a853" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">OPEN</text>
+    <text x="69" y="76" text-anchor="middle" fill="#e6d5b8" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Full Velvet Valise</text>
+    <text x="69" y="94" text-anchor="middle" fill="#c8b99e" font-family="IBM Plex Mono, monospace" font-size="10">Packing &amp; Reveal</text>
+  </g>
+
+  <text x="36" y="204" fill="#9c8c72" font-family="IBM Plex Mono, monospace" font-size="11">
+    * Zero Secret Leakage Invariant: OuterScreenView receives only PublicProjection — never SecretState (hand, visibleItems, hiddenItem).
+  </text>
+</svg>
